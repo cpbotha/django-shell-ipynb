@@ -15,7 +15,10 @@ or from pypi) or manually, add it to your Django project's ``INSTALLED_APPS``.
 After having done this, you can start up the IPython Notebook Django
 shell with::
 
-    python manage shell_ipynb
+    python manage.py shell_ipynb
+
+At which point your browser should start up with the IPython Dashboard,
+from which you can create new or edit existing notebooks.
 
 Alternatives
 ------------
