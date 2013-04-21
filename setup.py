@@ -10,7 +10,9 @@ setup(
     author_email='cpbotha@vxlabs.com',
     url='https://github.com/cpbotha/django-shell-ipynb',
     license='BSD',
-    packages=['django_shell_ipynb'],
+    # gets nested packages also, including
+    # django_shell_ipynb.management.commands
+    packages=find_packages(),
     install_requires = ['ipython', 'tornado', 'pyzmq'],
     classifiers=[
         'Development Status :: 4 - Beta',
