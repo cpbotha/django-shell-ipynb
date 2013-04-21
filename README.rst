@@ -9,8 +9,17 @@ completion and code documentation.
 
 Installation
 ------------
-After having installed ``django-shell-ipynb`` with ``pip`` (from github
-or from pypi) or manually, add it to your Django project's ``INSTALLED_APPS``.  
+The easiest way to install ``django-shell-ipynb`` is to use ``pip``.
+Either do this from pypi::
+
+    pip install django-shell-ipynb
+
+Or directly from github::
+
+    pip install git+git://github.com/cpbotha/django-shell-ipynb.git 
+
+After successful installation, add it to your Django project's
+``INSTALLED_APPS``.  
 
 After having done this, you can start up the IPython Notebook Django
 shell with::
@@ -22,8 +31,8 @@ from which you can create new or edit existing notebooks.
 
 Alternatives
 ------------
-You can get the same behaviour by installing and using the
-`django-extensions
+You can get the same behaviour with the ``shell_plus`` management
+command added by `django-extensions
 <https://github.com/django-extensions/django-extensions>`_ app, which  
 comes with a whole bunch of other management commands you might want or
 not want.
