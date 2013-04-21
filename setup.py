@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name='django-shell-ipynb',
     version='0.1.0',
-    description='A management command "shell_ipynb" that uses the ipython notebook instead of ipython.',
+    description='A Django management command "shell_ipynb" that uses the ipython notebook instead of ipython.',
     long_description=open('README.rst').read(),
     # Get more strings from http://www.python.org/pypi?:action=list_classifiers
     author='Charl P. Botha',
