@@ -9,9 +9,9 @@ setup(
     author='Charl P. Botha',
     author_email='cpbotha@vxlabs.com',
     url='https://github.com/cpbotha/django-shell-ipynb',
-    download_url='https://github.com/cpbotha/django-shell-ipynb/downloads',
     license='BSD',
     packages=['django_shell_ipynb'],
+    install_requires = ['ipython', 'tornado', 'pyzmq'],
     classifiers=[
         'Development Status :: 4 - Beta',
         'Environment :: Web Environment',
