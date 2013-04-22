@@ -5,14 +5,15 @@ setup(
     version='0.1.0',
     description='A Django management command "shell_ipynb" that uses the ipython notebook instead of ipython.',
     long_description=open('README.rst').read(),
-    # Get more strings from http://www.python.org/pypi?:action=list_classifiers
     author='Charl P. Botha',
     author_email='cpbotha@vxlabs.com',
     url='https://github.com/cpbotha/django-shell-ipynb',
     license='BSD',
+    keywords = "django ipython notebook shell",
     # gets nested packages also, including
     # django_shell_ipynb.management.commands
     packages=find_packages(),
+    # the ipython notebook requires tornado and pyzmq
     install_requires = ['ipython', 'tornado', 'pyzmq'],
     classifiers=[
         'Development Status :: 4 - Beta',
