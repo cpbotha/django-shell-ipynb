@@ -1,0 +1,2 @@
+v0.2.0, 2013-04-21 -- django project in sys.path
+v0.1.0, 2013-04-21 -- initial release
