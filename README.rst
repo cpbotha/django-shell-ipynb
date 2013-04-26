@@ -36,3 +36,10 @@ command added by `django-extensions
 <https://github.com/django-extensions/django-extensions>`_ app, which  
 comes with a whole bunch of other management commands you might want or
 not want.
+
+After releasing 0.2.0, I also discovered `django_ipython_notebook
+<https://github.com/bentoner/django_ipython_notebook>`_. However, that
+one internally uses the deprecated
+``django.core.management.setup_environ()`` function hardcoded for
+``settings``, and executes ipython using ``os.system()``, both of which
+are not ideal.
