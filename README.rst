@@ -18,8 +18,8 @@ Or directly from github::
 
     pip install git+git://github.com/cpbotha/django-shell-ipynb.git 
 
-After successful installation, add it to your Django project's
-``INSTALLED_APPS``.  
+After successful installation, add ``django_shell_ipynb`` to your Django
+project's ``INSTALLED_APPS``.  
 
 After having done this, you can start up the IPython Notebook Django
 shell with::
