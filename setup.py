@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='django-shell-ipynb',
-    version='0.2.0',
+    version='0.3.0',
     description='A Django management command "shell_ipynb" that uses the ipython notebook instead of ipython.',
     long_description=open('README.rst').read(),
     author='Charl P. Botha',

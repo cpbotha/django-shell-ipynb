@@ -1,2 +1,3 @@
+v0.3.0, 2014-06-23 -- now works with IPython 1.0+, tested with 2.1
 v0.2.0, 2013-04-21 -- django project in sys.path
 v0.1.0, 2013-04-21 -- initial release
